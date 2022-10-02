@@ -1,0 +1,71 @@
+# The URL the site will be built for
+base_url = "https://wonkymic.github.io"
+
+title = "Wonky"
+description = "Technology Blog"
+default_language = "en"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+theme = "blow"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+
+[extra]
+enable_search = false
+enable_sidebar = false
+enable_adsense = false
+enable_multilingue = false
+adsense_link = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=myclientid"
+
+[extra.navbar]
+items = [
+    { lang = "en", links = [
+        { url = "/", name = "author" },
+        { url = "/docs", name = "docs" },
+    ] },
+]
+title = "wonky"
+
+[extra.sidebar]
+items = [
+    { lang = "en", links = [
+        { url = "/", name = "author" },
+        { url = "/research", name = "research" },
+    ] },
+]
+
+# Index page
+[extra.index]
+title = "Michael Barefield"
+image = "https://avatars.githubusercontent.com/u/17017417?s=400&u=414bb2fb1e57b736a3ed4ab521ef11b90fa77326&v=4"
+image_alt = "Placeholder Baloo."
+
+[extra.default_author]
+name = "Michael Barefield"
+avatar = "https://avatars.githubusercontent.com/u/17017417?s=400&u=414bb2fb1e57b736a3ed4ab521ef11b90fa77326&v=4"
+avatar_alt = "Placeholder author Baloo."
+
+[extra.social]
+github = "https://github.com/WonkyMic"
+gitlab = "https://gitlab.com/WonkyMic"
+twitter = "https://twitter.com/WonkyMic"
+linkedin = "https://www.linkedin.com/in/mbarefield/"
+email = "WonkyMic@gmail.com"
+
+[extra.favicon]
+favicon = "/icons/favicon.ico"
+favicon_16x16 = "/icons/favicon-16x16.png"
+favicon_32x32 = "/icons/favicon-32x32.png"
+apple_touch_icon = "/icons/apple-touch-icon.png"
+android_chrome_512 = "/icons/android-chrome-512x512.png"
+android_chrome_192 = "/icons/android-chrome-192x192.png"
+manifest = "/icons/site.webmanifest"

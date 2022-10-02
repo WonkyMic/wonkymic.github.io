@@ -11,8 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+    - name: Checkout main
+      uses: actions/checkout@v3.0.0
+    - name: Build and deploy
+      uses: shalzz/zola-deploy-action@v0.16.1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

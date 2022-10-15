@@ -13,6 +13,7 @@ lead = 'Welcome to the Wonky compendium! This project is just getting started! F
 toc = true
 top = false
 +++
+The current Project is getting related to this website [GitPages and Zola](../../information_technology/gitpages-and-zola/)
 
 ## Information Technology
 

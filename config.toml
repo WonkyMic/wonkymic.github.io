@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://mbarefield.netlify.com"
+base_url = "https://wonkymic.github.com"
 title = "wonky"
 description = "A collection of notes."
 
@@ -51,7 +51,7 @@ twitter = "https://twitter.com/WonkyMic"
 email = "WonkyMic@gmail.com"
 
 # If running on netlify.app site, set to true
-is_netlify = true
+is_netlify = false
 
 # Set HTML file language
 language_code = "en-US"

@@ -1,5 +1,5 @@
 ---
-title : "Hello Information Tech"
+title: "Hello Information Tech"
 description : "One page summary of how to start a new AdiDoks project."
 lead: "sample lead"
 date : 2021-05-01T08:20:00+00:00

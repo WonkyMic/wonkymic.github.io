@@ -1,5 +1,5 @@
 ---
-title : "Comp Science"
+title: "Comp Science"
 description : "Welcome to the Compendium"
 lead: "lead section"
 date: 2022-10-15T08:48:45+00:00

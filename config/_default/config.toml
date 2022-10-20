@@ -1,4 +1,4 @@
-baseurl = "https://doks-child-theme.netlify.app/"
+baseurl = "https://wonky-docs.web.app//" # https://wonkywidgets.dev/
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

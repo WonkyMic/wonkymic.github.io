@@ -10,7 +10,7 @@
       "**/node_modules/**"
     ],
     "headers": [ {
-      "source": "**/*.@(eot|otf|ttf|ttc|woff|woff2|css|js)",
+      "source": "**/*.@(eot|otf|ttf|ttc|woff|woff2|css|js|webmanifest)",
       "headers": [ {
         "key": "Access-Control-Allow-Origin",
         "value": "*"

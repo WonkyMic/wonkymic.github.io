@@ -48,3 +48,9 @@ The repository for this [project lives in GitHub](https://github.com/WonkyMic/wo
 From Jamstack to SSG documentation there are references to [Netfly](https://www.netlify.com/). The pricing model makes it easy to get started then charges after a resource consumption limit.
 
 If I'm going to pay someone I'm going to align with a major provider. [Google Cloud Platform](https://cloud.google.com/) and [Amazon Web Services](https://aws.amazon.com/) come to mind. I've heard good things about Google's [Firebase](https://firebase.google.com/), so that is what we're going with.
+
+# Roadblocks
+- When using a custom DNS through Google. CORS issues were present
+
+Trying this
+https://firebase.google.com/docs/hosting/full-config

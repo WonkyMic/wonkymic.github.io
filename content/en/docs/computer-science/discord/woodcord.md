@@ -1,6 +1,6 @@
 ---
 title : "Woodcord Kotlin Bot"
-description : "Describing the process to get this webpage going"
+description : "A discord bot developed by Little Woodrows enjoyers."
 lead: "A discord bot developed by Little Woodrows enjoyers."
 date : 2022-10-23T00:00:00+00:00
 lastmod : 2022-10-23T00:00:00+00:00

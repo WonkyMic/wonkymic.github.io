@@ -1,6 +1,6 @@
 ---
 title : "Useful Resources"
-description : "Common links"
+description : "Common resources used throughout different projects."
 lead: "Common resources used throughout different projects."
 date : 2022-10-23T00:00:00+00:00
 lastmod : 2022-10-23T00:00:00+00:00

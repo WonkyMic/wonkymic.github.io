@@ -1,7 +1,7 @@
 ---
 title : "GitHub and Firebase"
 description : "Describing the process to get this webpage going"
-lead: "How to setup this webpage"
+lead: "Resouces on how this webpage was setup"
 date : 2021-05-01T08:20:00+00:00
 lastmod : 2021-05-01T08:20:00+00:00
 draft : false
@@ -12,27 +12,27 @@ weight : 11
 toc: true
 ---
 
-# Objective
+## Objective
 A central location to host research notes.
 
 - Simple
 - Accessible
 - Quick
 
-# Design
+## Design
 The appeal of Static Site Generation checks the box of staying simple. Writing notes in Markdown is something I'm already familiar with. The ability to select a pre-built theme is appealing.
 
 [Jamstack](https://jamstack.org/generators/) maintains a list of top SSGs.
 
-## SSG Provider
+### SSG Provider
 |SSG|Notes|
 |:--|:--|
 |[Jekyll](https://jekyllrb.com/)|Default for [GitHub Pages](https://pages.github.com/). It relies on Ruby, a Language I'm not familiar with.|
 |[Zola](https://www.getzola.org/)|Written in Rust. Ran into complications with the recommended GitHub Action|
-|[Docusaurus](https://docusaurus.io/)|Used at work. I'd wanted to try something new.|
+|[Docusaurus](https://docusaurus.io/)|Used at work. I'd like to try something new.|
 |[Hugo](https://gohugo.io/)|**Selected for this project**. Multiple theme support and large community. Fast.|
 
-## Theme 
+### Theme 
 - Needs to align with research/documentation objective. 
 - Neat looking dark mode.
 - LayTeX / KaTeX support
@@ -42,16 +42,16 @@ The appeal of Static Site Generation checks the box of staying simple. Writing n
 |[Academic](https://github.com/wowchemy/starter-hugo-academic)|Multiple configuration options with a large community.|
 |[Doks](https://github.com/h-enk/doks)|**Selected for this project**. I had selected this when experimenting with Zola SSG. Great Dark theme with search capability. Focused on Doks rather than the researcher.|
 
-## Host
+### Host
 The repository for this [project lives in GitHub](https://github.com/WonkyMic/wonkymic.github.io) following the format that aligns with user/organization name. This gives us the option of using [GitHub Pages](https://pages.github.com/).
 
 From Jamstack to SSG documentation there are references to [Netfly](https://www.netlify.com/). The pricing model makes it easy to get started then charges after a resource consumption limit.
 
 If I'm going to pay someone I'm going to align with a major provider. [Google Cloud Platform](https://cloud.google.com/) and [Amazon Web Services](https://aws.amazon.com/) come to mind. I've heard good things about Google's [Firebase](https://firebase.google.com/), so that is what we're going with.
 
-# Roadblocks
-## CORS
-This issue presents itself When using a custom Google Domain.
+## Roadblocks
+### CORS
+This issue presents itself when using a custom Google Domain.
 
 Modification to the project's `firebase.json` file following [Firebase's documentation](https://firebase.google.com/docs/hosting/full-config) removed some of the errors.
 

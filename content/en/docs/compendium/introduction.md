@@ -12,5 +12,13 @@ menu:
 weight: 1
 toc: true
 ---
-## Computer Science
-- How this site was setup
+
+## Recently Concluded
+- 2022-10-23 | [GitHub and Firebase](/docs/computer-science/github-and-firebase/), setting up this site.
+## Work in Progress
+- TBD
+## On the Horizon
+- [R language](https://www.r-project.org/other-docs.html)
+- Consolidate multi-language API examples into one project.
+- [Figma](https://www.figma.com/)
+- [web3js](https://web3js.readthedocs.io/en/v1.8.0/)

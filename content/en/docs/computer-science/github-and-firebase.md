@@ -50,7 +50,9 @@ From Jamstack to SSG documentation there are references to [Netfly](https://www.
 If I'm going to pay someone I'm going to align with a major provider. [Google Cloud Platform](https://cloud.google.com/) and [Amazon Web Services](https://aws.amazon.com/) come to mind. I've heard good things about Google's [Firebase](https://firebase.google.com/), so that is what we're going with.
 
 # Roadblocks
-- When using a custom DNS through Google. CORS issues were present
+## CORS
+This issue presents itself When using a custom Google Domain.
 
-Trying this
-https://firebase.google.com/docs/hosting/full-config
+Modification to the project's `firebase.json` file following [Firebase's documentation](https://firebase.google.com/docs/hosting/full-config) removed some of the errors.
+
+As a workaround we'll just stick with the default domain.

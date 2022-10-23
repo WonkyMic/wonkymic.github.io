@@ -12,8 +12,8 @@ description = "A collection of disparate notes on a variety of topics."
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Wonky Home"
+domainTLD = "wonky-docs.web.app"
+titleHome = "Wonky"
 
 ## Twitter Cards
 twitterSite = "@wonkymic"

@@ -2,13 +2,13 @@
 title : "GitHub and Firebase"
 description : "Describing the process to get this webpage going"
 lead: "Resouces on how this webpage was setup"
-date : 2021-05-01T08:20:00+00:00
-lastmod : 2021-05-01T08:20:00+00:00
+date : 2022-10-23T00:00:00+00:00
+lastmod : 2022-10-23T00:00:00+00:00
 draft : false
 menu:
   docs:
     parent: "computer_science"
-weight : 11
+weight : 12
 toc: true
 ---
 

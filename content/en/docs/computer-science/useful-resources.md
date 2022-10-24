@@ -13,5 +13,7 @@ toc: true
 ---
 
 ## Resources
+- [Doks Theme... Docs](https://getdoks.org/docs/overview/introduction/)
 - [Mermaid](https://mermaid-js.github.io/mermaid/)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Mardown Supported Emojis](https://gist.github.com/rxaviers/7360908)

@@ -7,8 +7,8 @@ lastmod : 2022-10-23T00:00:00+00:00
 draft : false
 menu:
   docs:
-    parent: "computer_science"
-weight : 11
+    parent: "compendium"
+weight : 10
 toc: true
 ---
 
@@ -17,3 +17,4 @@ toc: true
 - [Mermaid](https://mermaid-js.github.io/mermaid/)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Mardown Supported Emojis](https://gist.github.com/rxaviers/7360908)
+- [API Documentation Examples](https://gist.github.com/iros/3426278)

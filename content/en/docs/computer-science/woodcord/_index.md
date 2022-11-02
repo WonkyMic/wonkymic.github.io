@@ -1,7 +1,7 @@
 ---
-title : "Discord"
-description : "Collection of projects that interact with Discord"
-lead: "Discord stuff"
+title : "Woodcord"
+description : "Project Woodcord"
+lead: "Woodcord stuff"
 date: 2022-10-23T00:00:00+00:00
 lastmod: 2022-10-23T00:00:00+00:00
 draft: false

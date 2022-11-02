@@ -16,7 +16,7 @@ toc: true
 ## Recently Concluded
 - 2022-10-23 | [GitHub and Firebase](/docs/computer-science/github-and-firebase/), setting up this site.
 ## Work in Progress
-- [Woodcord](/docs/computer-science/discord/woodcord/), Kotlin Discord bot
+- [Woodcord](/docs/computer-science/woodcord/), Kotlin Discord bot
 ## On the Horizon
 - [R language](https://www.r-project.org/other-docs.html)
 - Consolidate multi-language API examples into one project.

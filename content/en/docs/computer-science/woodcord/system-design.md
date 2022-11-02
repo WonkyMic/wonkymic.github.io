@@ -32,6 +32,7 @@ sequenceDiagram
     API ->> D : Reply 
     D ->> Bob: Reply
     Bob ->> D: Reply Feedback (emoji)
+    D ->> API: Store Feedback
     API ->> DB: Store Fedback by Message Id
     DB ->> LM: Execute NLP
     LM ->> DB: Store Updated Response List

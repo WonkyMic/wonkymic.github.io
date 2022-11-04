@@ -13,6 +13,10 @@ weight : 14
 toc: true
 ---
 
+[GitHub Repository](https://github.com/WonkyMic/ami-api)
+
+{{< alert icon="💡" context="info" text="Interface documentation is out of date. Check Repository for latest." />}}
+
 ## Store Message
 **Given** the AMI API, **when** invoked with a Message Body, **then** store the content **and** return a Message ID.
 

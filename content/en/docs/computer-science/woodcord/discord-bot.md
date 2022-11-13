@@ -15,6 +15,13 @@ toc: true
 
 {{< alert icon="💡" context="info" text="This page contains Mermaid. It's recommended to view in light mode." />}}
 
+
+|Commands|Description|
+|:---|:---|
+|`!listauthors`|List AMI Authors|
+|`!amihealth`|Liveness check evaluating AMI API|
+|`!test`|Woodcord Bot liveness check|
+
 ## Store Conversation
 **Given** the Woodcord Bot, **when** a Discord Message Event is recieved, **then** store the conversation using the AMI API.
 {{< mermaid class="bg-light text-center" >}}

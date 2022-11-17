@@ -15,9 +15,9 @@ toc: true
 
 |Resource|Reference|
 |:---|:---|
-|Repository|https://github.com/WonkyMic/ami-api|
+|Repository|[https://github.com/WonkyMic/ami-api](https://github.com/WonkyMic/ami-api)|
 |Host|http://localhost:8080|
-|Database|https://www.cockroachlabs.com/|
+|Database|[https://www.cockroachlabs.com/](https://www.cockroachlabs.com/)|
 
 
 
@@ -68,6 +68,38 @@ toc: true
 |:---|:---|
 |`200`|`Author Deleted`|
 
+#### Validation Rules
+- Deletes Reactions for Author
+- Deletes Messages by Author as well as the related message reactions
+
+</details>
+
+### Search
+**Given** Platform Alias ID, **then** return associated author information.
+
+<details>
+    <summary>Request</summary>
+
+`GET` | `/ami/author/search`
+
+
+#### Query Parameters
+|Name|Type|Description|
+|:---|:---|:---|
+|`platformAliasId`|String|Platform specific author identifier|
+
+#### Response
+|Http Status|Body|
+|:---|:---|
+|`200`|`<Author>`|
+
+|Name|Type|Description|
+|:---|:---|:---|
+|`Id`|UUID|AMI Author Identifier|
+|`Alias`|String|Platform Alias|
+|`Platform`|String|Platform name|
+|`PlatformAliasId`|uint64|Platform specific author identifier|
+
 </details>
 
 ### Retrieve
@@ -85,7 +117,7 @@ toc: true
 #### Response
 |Http Status|Body|
 |:---|:---|
-|200|`<Author Response>`|
+|`200`|`<Author>`|
 
 |Name|Type|Description|
 |:---|:---|:---|
@@ -107,7 +139,7 @@ toc: true
 #### Response
 |Http Status|Body|
 |:---|:---|
-|200|`List<Author Response>`|
+|`200`|`List<Author>`|
 
 |Name|Type|Description|
 |:---|:---|:---|
@@ -129,7 +161,7 @@ toc: true
 #### Response
 |Http Status|Body|
 |:---|:---|
-|200|`List<Reaction Response>`|
+|`200`|`List<Reaction>`|
 
 |Name|Type|Description|
 |:---|:---|:---|
@@ -158,8 +190,8 @@ toc: true
 #### Response
 |Http Status|Body|
 |:---|:---|
-|201|`<Message Response>`|
-|400|Bad Request|
+|`201`|`<Message>`|
+|`400`|Bad Request|
 
 |Name|Type|Description|
 |:---|:---|:---|
@@ -203,7 +235,7 @@ toc: true
 #### Response
 |Http Status|Body|
 |:---|:---|
-|200|`<Message Response>`|
+|`200`|`<Message>`|
 
 |Name|Type|Description|
 |:---|:---|:---|
@@ -225,7 +257,7 @@ toc: true
 #### Response
 |Http Status|Body|
 |:---|:---|
-|200|`List<Message Response>`|
+|`200`|`List<Message>`|
 
 |Name|Type|Description|
 |:---|:---|:---|
@@ -251,7 +283,7 @@ toc: true
 #### Response
 |Http Status|Body|
 |:---|:---|
-|200|`List<Reaction Response>`|
+|`200`|`List<Reaction>`|
 
 |Name|Type|Description|
 |:---|:---|:---|

@@ -19,6 +19,8 @@ toc: true
 |Commands|Description|
 |:---|:---|
 |`!listauthors`|List AMI Authors|
+|`!addauthor`|Add Author|
+|`!delauthor`|Delete Author|
 |`!amihealth`|Liveness check evaluating AMI API|
 |`!test`|Woodcord Bot liveness check|
 
